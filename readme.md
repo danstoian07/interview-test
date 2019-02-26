@@ -7,7 +7,7 @@ How to deploy:
 - php artisan key:generate
 - php artisan migrate
 - php artisan storage:link
-- npm install
+- npm install ( on Windows: npm install --global cross-env )
 - npm run dev
 
 To run de schedule: <b>php artisan schedule:run</b>
